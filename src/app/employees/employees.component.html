@@ -1,0 +1,36 @@
+<section>
+  <h2>Create employee</h2>
+  <form method="get">
+    <mat-form-field>
+      <mat-label>First Name</mat-label>
+      <input matInput required="true" type="text" id="first-name" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Last Name</mat-label>
+      <input matInput required="true" type="text" id="last-name" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Preferred Name</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Role</mat-label>
+      <mat-select>
+        <mat-option value="0">Cashier</mat-option>
+        <mat-option value="1">Stocker</mat-option>
+        <mat-option value="2">Supervisor</mat-option>
+        <mat-option value="3">Manager</mat-option>
+        <mat-option value="4">General Manager</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Pronouns</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+
+    <div>&nbsp;</div>
+    <button mat-flat-button class="full-width">Create</button>
+  </form>
+</section>
